@@ -81,7 +81,7 @@ class EditProjectDialog(QDialog):
 class Ui_MainWindow(QMainWindow):
     def __init__(self):
         super(Ui_MainWindow, self).__init__()
-        self.setWindowTitle("Менеджер проектов")
+        self.setWindowTitle("ProjectX")
         self.setGeometry(100, 100, 800, 600)
 
         self.central_widget = QWidget(self)
